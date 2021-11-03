@@ -1,54 +1,80 @@
-ul,
-        li {
-            list-style: none;
-            padding: 0;
-        }
+ul, li {
+    list-style: none;
+    padding: 0;
+}
 
-        .list-item {
-            margin-bottom: 1.5rem;
-        }
+.list-item {
+    margin-bottom: 1.5rem;
+}
 
-        .list-item h5 {
-            display: inline;
-        }
+.list-item h5 {
+    display: inline;
+}
 
-        .list-item i {
-            font-size: 24px;
-        }
+.list-item i {
+    font-size: 24px;
+}
 
-        .logo {
-            color: blue;
-        }
+.logo {
+    color: blue;
+}
 
-        .portrait {
-            width: 60px;
-            height: 60px;
-            overflow: hidden;
-        }
+.portrait {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
 
-        .user i {
-            font-size: 20px;
-            color: blue;
-        }
-        .card-body h6 {
-            display: inline;
-        }
-        .rounded-3 {
-            border-radius: 1.25rem!important;
-        }
-        .bg-lightgray {
-            background-color: #f5f5f5;
-        }
+.user i {
+    font-size: 20px;
+    color: blue;
+}
+.card-body h6 {
+    display: inline;
+}
+.rounded-3 {
+    border-radius: 1.25rem!important;
+}
+.bg-lightgray {
+    background-color: #f5f5f5;
+}
 
-        .no-border {
-            outline: none;
-            border: none;
-        }
+.no-border {
+    outline: none;
+    border: none;
+}
 
-        .card-body a {
-            text-decoration: none;
-        }
+.card-body a {
+    text-decoration: none;
+}
 
-        .fs-7 {
-            font-size: 0.85rem!important;
-        }
+.fs-7 {
+    font-size: 0.85rem!important;
+}
+
+.rounded-top-3 {
+    border-top-left-radius: 1.25rem!important;
+    border-top-right-radius: 1.25rem!important;
+}
+
+.messageContainer {
+    box-shadow: -1px -1px 5px -2px black;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.messages {
+    display: none;
+    height: 300px;
+}
+
+.messageContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.messageContainer h5 {
+    display: inline;
+}
